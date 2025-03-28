@@ -6,7 +6,7 @@ int main(){
     cout<<"Enter a number: ";
     cin>>n;
     for(int i=1;i<=n;i++){
-        for(int j=1;j<=n-1;j++){
+        for(int j=1;j<=n-i;j++){
             cout<<" ";
 
         }
@@ -17,4 +17,3 @@ int main(){
     }
     return 0;
 } 
-//Not getting this question right properly.
